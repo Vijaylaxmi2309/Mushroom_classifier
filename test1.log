@@ -1,0 +1,52 @@
+2023-06-26 12:08:05,493 we are inside the info main log root INFO
+2023-06-26 12:08:05,494 we are inside the error main log root ERROR
+2023-06-26 12:08:05,495 we are inside the warning main log root WARNING
+2023-06-26 12:08:40,065 we are inside dataframe root INFO
+2023-06-26 12:08:40,069 error has occured root ERROR
+2023-06-26 12:08:40,070 [Errno 2] No such file or directory: 'mushroom.csv' root ERROR
+Traceback (most recent call last):
+  File "C:\Users\vijua\AppData\Local\Temp\ipykernel_19536\105141759.py", line 3, in <module>
+    df=pd.read_csv("mushroom.csv")
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'mushroom.csv'
+2023-06-26 12:11:12,972 we are inside dataframe root INFO
+2023-06-26 12:12:05,738 we are expanding display to see more columns root INFO
+2023-06-26 12:13:26,568 we are inside dataframe root INFO
+2023-06-26 12:13:26,569 error has occured root ERROR
+2023-06-26 12:13:26,569 [Errno 2] No such file or directory: 'C:\\Users\\Sharanya\\OneDrive\\Desktop\\mushrooms.csv' root ERROR
+Traceback (most recent call last):
+  File "C:\Users\vijua\AppData\Local\Temp\ipykernel_19536\1782477082.py", line 3, in <module>
+    df=pd.read_csv(r"C:\Users\Sharanya\OneDrive\Desktop\mushrooms.csv")
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "c:\Users\vijua\OneDrive\Documents\onda\envs\venv\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sharanya\\OneDrive\\Desktop\\mushrooms.csv'
+2023-06-26 12:13:41,639 we are inside dataframe root INFO
+2023-06-26 12:13:59,462 We are checking the info of complete DataFrame root INFO
+2023-06-26 12:14:10,484 We are checking the null values root INFO
+2023-06-26 12:14:29,797 Sum the null values in dataset root INFO
+2023-06-26 12:14:40,411 we are describing and the columns data root INFO
+2023-06-26 12:14:49,671 we are still on categorical data root INFO
+2023-06-26 12:14:58,317 We are inside DataFrame function in which it changes categorical values into numerical values by using level and coder method root INFO
+2023-06-26 12:15:37,979 We are inside PCA root INFO
+2023-06-26 12:15:50,724 finding the sum of 7 components of PCA root INFO
+2023-06-26 12:17:00,585 Set the bar plot of accuracy score root INFO
+2023-06-26 12:18:15,549 Set the bar plot of accuracy score root INFO
+2023-06-26 12:18:52,258 Set the bar plot of accuracy score root INFO
+2023-06-26 12:19:41,403 Set the bar plot of accuracy score root INFO
